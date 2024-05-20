@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+#gato{
+    width: 100px;
+    height: 100px;
+}
+#raton{
+  padding-top: 50px;
+    width: 50px;
+    height: 50px;
+}
+.imagenes{
+    display: flex;
+}
+div.tom{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: TOM;
+  animation-duration: 4s;
+  animation-delay: 1.5s;
+}
+
+@keyframes TOM {
+  0%   {left:0px; top:0px;}
+  25%  {left:200px; top:200px;}
+  50%  {left:400px; top:0px;}
+  75%  {left:800px; top:200px;}
+  100% {left:1600px; top:0px;}
+}
+div.jerry{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: JERRY;
+  animation-duration: 4s;
+  animation-delay: 1s;
+}
+
+@keyframes JERRY {
+  0%   {left:0px; top:0px;}
+  25%  {left:200px; top:200px;}
+  50%  {left:400px; top:0px;}
+  75%  {left:800px; top:200px;}
+  100% {left:1600px; top:0px;}
+}
+</style>
+</head>
+<body>
+
+<h1>CSS Animation</h1>
+
+<p>The animation-delay property specifies a delay for the start of an animation. The following example has a 2 seconds delay before starting the animation:</p>
+<div class="imagenes">
+    <div class="tom"> <img id="gato" src="tom.png" alt="Tom"></div>
+    <div class="jerry"> <img id="raton" src="jerry.png" alt="Jerry"></div>
+</div>
+
+</body>
+</html>
+
+

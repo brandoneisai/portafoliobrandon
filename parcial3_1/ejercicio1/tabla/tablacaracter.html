@@ -1,0 +1,59 @@
+<html>
+
+<head>
+
+  <title>Bienvenida del usuario</title>
+  <style>
+    p{
+      font-family: sans-serif;
+      color: brown;
+      font-size: 22px;
+    }
+  </style>
+
+  <script type = "text/javascript">
+
+  function imprimetabla() {
+
+    var filas1= parseInt(document.forms[0].filas.value);
+    var columnas1= parseInt(document.forms[0].columnas.value);
+    var car1=document.forms[0].car.value;
+    var numero1=1;
+
+    document.write("<table border=1>");
+    numero1=Math.floor(Math.random()*100)+1;
+    for(i=1;i<=filas1;i++){
+        document.write("<tr>");
+        for(j=1;j<=columnas1;j++){
+          numero1=Math.floor(Math.random()*100)+1;
+           document.write("<td>",car1,"</td>");
+        }
+        document.write("</tr>");
+        
+        }
+
+    document.write("</table>");
+
+    return true;
+
+        }
+
+
+  </script>
+
+</head>
+
+<body>
+
+<form id="myform" onsubmit="return imprimetabla();">
+
+<p>Cuantas filas <input id="filas" name="fila" type="text" /></p>
+<p>Cuantos párrafos <input id="columnas" name="columna" type="text" /></p>
+<p>caracter a imprimir <input id="car" name="car" type="text" /></p>
+<p><input type="submit" /></p>
+
+</form>
+
+</body>
+
+</html>

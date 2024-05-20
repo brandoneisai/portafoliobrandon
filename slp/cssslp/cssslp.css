@@ -1,0 +1,28 @@
+body{
+ background-color:  rgb(184, 140, 76);  
+ font-family: cursive;
+}
+
+h2{
+    color: black;
+    background-color: silver;
+}
+
+div{
+    color: black;
+    width: 800px;
+}
+
+.prehis{
+  
+    float:right;
+   width: 25%;
+   margin-right: 400px;
+   margin-bottom: 100px;
+}
+.virre{
+    float:right;
+    width: 25%;
+    margin-right: 400px;
+    margin-bottom: 100px;  
+}

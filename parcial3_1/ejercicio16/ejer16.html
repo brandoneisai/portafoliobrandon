@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+<body>
+
+
+
+<canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+
+<canvas id="myChart1" style="width:100%;max-width:600px"></canvas>
+
+<script>
+
+const xValues = ["","Proga 1", "Núcleo 2", "Progra web 1", "Ingles 6", "circuitos","Nucleo 3"];
+const xValues1 = ["Proga 1", "Núcleo 2", "Progra web 1", "Ingles 6", "circuitos","Nucleo 3"];
+const yValues = [0,8,9.7,9.5,8.5,8,9.5];
+var yArray2 = [0.0,0.0,0.0,0.0,0.0,0.0];
+
+const barColors = ["rgba(0,0,255,0.6)", "green","blue","orange","brown"];
+
+function aleatorios(){
+n=yArray2.length;
+    for(i=0;i<n;i++){
+    yArray2[i]=Math.floor(Math.random()*10)+1;
+    }
+    return true;
+}
+
+new Chart("myChart", {
+
+ type: "bar",
+
+ data: {
+
+  labels: xValues,
+
+  datasets: [{
+
+   backgroundColor: barColors,
+
+   data: yValues
+
+  }]
+
+ },
+
+ options: {
+
+  legend: {display: false},
+
+  title: {
+
+   display: true,
+
+   text: "World Wine Production 2018"
+
+  }
+
+ }
+
+});
+
+////////////////////////////////////////
+aleatorios();
+new Chart("myChart1", {
+
+type: "bar",
+
+data: {
+
+ labels: xValues1,
+
+ datasets: [{
+
+  backgroundColor: barColors,
+
+  data: yArray2,
+
+ }]
+
+},
+
+options: {
+
+ legend: {display: false},
+
+ title: {
+
+  display: true,
+
+  text: "calificaciones parcial 3 "
+
+ }
+
+}
+
+});
+</script>
+
+
+
+</body>
+
+</html>

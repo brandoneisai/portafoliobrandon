@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+
+<body>
+
+<h1>JArreglos</h1>
+
+<h2>ordenación</h2>
+
+
+
+<p>Click en la opcion</p>
+
+
+
+<button onclick="generaarreglo()">Llenar arreglo</button>
+
+<button onclick="imprimearreglo()">Imprimir Arreglo</button>
+
+<button onclick="ordenararreglo()">Ordener arreglo menor a mayor</button>
+
+<button onclick="imprimirordenararreglo()">Ordener arreglo mayor a menor</button>
+
+<button onclick="arreglotabla()">Arreglo en tabla</button>
+
+<button onclick="f()">Agregar elemento</button>
+
+<button onclick="g()">Quitar elementos</button>
+
+<p id="demo"></p>
+
+
+<!--Inicio de JavaScript-->
+<script>
+    var arreglo=[0,0,0,0,0,0,0,0,0,0];
+    
+function generaarreglo() {
+var n=arreglo.length;
+
+ for ( i = 0; i<n;i++) {
+    arreglo[i]=Math.floor(Math.random()*100)+1;
+    
+ }
+
+}
+
+function imprimearreglo() {
+
+document.getElementById("demo").innerHTML="Arreglo resultante: "+arreglo;
+
+}
+
+function ordenararreglo() {
+
+arreglo=arreglo.sort(function(a,b){return a-b});
+document.getElementById("demo").innerHTML="Arreglo resultante: "+arreglo;
+
+}
+
+function imprimirordenararreglo() {
+
+arreglo=arreglo.reverse();
+document.getElementById("demo").innerHTML="Arreglo resultante: "+arreglo;
+
+}
+
+function arreglotabla() {
+var texto="";
+var n=arreglo.length;
+texto=texto+"<table border=1><tr>";
+for(i=0;i<n;i++){
+   texto=texto+"<td>"+arreglo[i]+"</td>";
+
+    } 
+    texto=texto+"</tr></table>";
+document.getElementById("demo").innerHTML=texto;
+
+}
+
+function f(){
+    var elemento=Math.floor(Math.random()*100+1);
+    var n=arreglo.length;
+    arreglo.push(elemento);
+}
+
+
+function g(){
+    var n=arreglo.length;
+    arreglo-arreglo.pop();
+    
+
+}
+
+</script>
+<!--Fin de JavaScript-->
+
+
+</body>
+
+</html>
+

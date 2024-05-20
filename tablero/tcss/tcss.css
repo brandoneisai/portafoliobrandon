@@ -1,0 +1,23 @@
+td{
+border: 1px solid;
+width: 10px;
+height: 10px;
+
+}
+
+table{
+border: 1px solid;
+margin: 0 auto;
+}
+
+#color{
+    background-color: black;
+    height: 40px;
+}
+
+#nombre{
+    height: 40px;
+}
+h1{
+text-align: center;
+}

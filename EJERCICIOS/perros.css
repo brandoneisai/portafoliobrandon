@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap');
+body { /*etiqueta padre*/
+  padding: 0 50px;
+  background-color: hwb(118 37% 20%);
+  font-family: "ojuju";
+  text-align: justify;
+}
+
+h1 {/*etiqueta padre*/
+  font-family: "ojuju";
+  margin: 0;
+  
+  font-size: 3rem;
+  text-align: center;
+}
+
+h2 {/*etiqueta padre*/
+  margin: 0;
+  color:hwb(251 18% 34%);
+  font-family: "ojuju";
+  font-size: 3rem;
+  text-transform: capitalize;
+  text-shadow: 3px 3px black;
+}
+
+strong {/*etiqueta padre*/
+  padding: 0 10px;
+  background-color: white;
+  color: rgb(204, 207, 30);
+}
+
+i {/*etiqueta padre*/
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+time {/*etiqueta padre*/
+  color: rgb(179, 32, 69);
+}
+
+img {/*etiqueta padre*/
+  border: hwb(325 13% 31%) 5px solid;
+  padding: 5px;
+}
+
+img.izquierda {/*pseudoclase*/
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+img.derecha {/*pseudoclase*/
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+p.izquierda {/*pseudoclase*/
+  float: left;
+  width: 33%;
+}
+
+p.centrado {/*pseudoclase*/
+  text-align: center;
+}
+
+hr {/*etiqueta padre*/
+  clear: both;
+  width: 66%;
+  height: 10px;
+  border: rgb(33, 189, 163) 1px solid;
+  border-radius: 5px;
+  margin: 40px auto;
+  background-color: hwb(93 20% 39%);
+}
+
+address {/*etiqueta padre*/
+  text-align: right;
+  font-style: normal;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+<body>
+
+
+
+<div id="myPlot" style="width:100%;max-width:700px"></div>
+
+<div id="myPlot2" style="width:100%;max-width:700px"></div>
+
+<div id="myPlot3" style="width:100%;max-width:700px"></div>
+<script>
+
+
+
+const xArray = ["I.computación", "Núcleo 1", "Física 2", "Office", "Matemáticas 3","Inglés 5"];
+const xArray1 = ["Proga 1", "Núcleo 2", "Progra web 1", "Ingles 6", "circuitos","Nucleo 3"];
+
+const yArray = [9.2,9.5,7.1,9.8,7,8.5];
+const yArray1 = [8,9.7,9.5,8.5,8,9.5];
+var yArray2 = [0.0,0.0,0.0,0.0,0.0,0.0];
+
+function aleatorios(){
+n=yArray2.length;
+    for(i=0;i<n;i++){
+    yArray2[i]=Math.floor(Math.random()*10)+1;
+    }
+    return true;
+}
+const data = [{
+
+ x:xArray,
+
+ y:yArray,
+
+ type:"bar",
+
+ orientation:"v",
+
+ marker: {color:"rgba(0,0,255,0.6)"}
+
+}];
+
+
+const data1 = [{
+
+x:xArray1,
+
+y:yArray1,
+
+type:"bar",
+
+orientation:"v",
+
+marker: {color:"rgba(0,0,100,0.6)"}
+
+}];
+
+aleatorios();
+const data2 = [{
+
+x:xArray1,
+
+y:yArray2,
+
+type:"bar",
+
+orientation:"v",
+
+marker: {color:"rgba(0,0,100,0.6)"}
+
+}];
+const layout = {title:"Brandon Eisai Guzmán López Semestre 1"};
+const layout1 = {title:"Brandon Eisai Guzmán López Semestre 2"};
+const layout2 = {title:"Brandon Eisai Guzmán López Semestre 2 parcial 3"};
+
+Plotly.newPlot("myPlot", data, layout);
+Plotly.newPlot("myPlot2", data1, layout1);
+Plotly.newPlot("myPlot3", data2, layout2);
+</script>
+
+
+
+</body>
+
+</html>

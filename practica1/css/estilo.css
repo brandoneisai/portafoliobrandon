@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Cabin+Sketch);
+@import url(https://fonts.googleapis.com/css?family=Gabriela);
+
+ h1{
+    color: chocolate;
+    font-family:'Gabriela';
+     }
+ h2{
+    color: blue;
+    font-family: 'Gabriela'
+    }
+
+p{
+     color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 12;
+     text-align: center;
+}
+
+img{
+     width: 100px;
+    height: 100px;
+    }
+
+body{
+     background-image: url(".././media/imagen2.jpg");
+     }
+
+div.estrofa{
+    border: hwb(20 0% 20%) 3px solid;
+  border-radius: 20px;
+  margin:10px;
+  width: 50%;
+  
+}
+
+div.coro{
+    border: hwb(300 0% 10%) 3px solid;
+  border-radius: 20px 0;
+  margin: 10px 50px;
+  width: 50%;
+
+}

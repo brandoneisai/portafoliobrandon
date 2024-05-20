@@ -1,0 +1,56 @@
+
+
+    body{
+        background-color: rgb(170, 180, 114);
+    }
+
+    footer{
+        background-color: rgb(153, 221, 158);
+    }
+    
+    .titulo{
+        background-color: rgb(30, 156, 32);;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        position: fixed; /* Add position: fixed to fix the navigation menu */
+        top: 0; /* Position it at the top of the viewport */
+        left: 0; /* Position it at the left of the viewport */
+        width: 100%; /* Make it span the full width of the viewport */
+        background-color: purple; /* Optional: add a background color */
+        z-index: 1000; /* Set a high z-index to ensure it's above other content */
+    }
+    
+    nav details {
+        margin-right: 10px;
+    }
+    
+    nav summary {
+        cursor: pointer;
+        padding: 5px 10px;
+    }
+    
+    #boxmenu{
+        border: solid black;
+        background-color: black;
+        color: white;
+        padding: 2px;
+        margin-top: 50px;
+        margin-left: 250px;
+        width: 150px;
+        height: 50px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        transition: width 0.5s;
+        
+        }
+        
+        #boxmenu:hover{
+            background-color: white;
+            border: 1px solid orange;
+             color: purple;
+             width: 400px;
+        }
+    summary{
+        list-style: none;
+    }

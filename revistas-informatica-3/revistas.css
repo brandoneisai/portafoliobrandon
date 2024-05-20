@@ -1,0 +1,48 @@
+html {
+    background-color: hwb(150 25% 30%);
+    font-family: 'Times New Roman', Times, serif ;
+    line-height: 125%;
+    text-align: justify ;
+    hyphens: auto;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article {
+    display: flex;
+    flex-direction:row ;
+    width:40% ;
+    margin:2% ;
+    border: black 3px solid;
+    background-color: hwb(150 50% 30%);
+}
+
+h2 {
+    margin: 0 ;
+    padding: 2%;
+    border-right: black 1px solid;
+}
+
+div {
+    margin: 4%;
+}
+
+p::first-letter {
+    float: left;
+    color: darkgreen;
+    font-size: 5rem;
+    font-style: normal;
+    line-height: 3rem;
+}
+
+img{
+border: 10px solid darkgreen;
+}
+
+strong{
+    color: darkgreen;
+}

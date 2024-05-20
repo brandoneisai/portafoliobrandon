@@ -1,0 +1,33 @@
+
+        .c1{
+            background-color:rgb(215, 216, 153);
+            padding: 10px;
+            text-align: center;
+            margin: 10px ;
+        }
+        .c2{
+            background-color:rgb(168, 134, 40);
+            padding: 10px;
+            text-align: right;
+            margin: 10px ;
+        }
+        .cuadro1{
+            border: 10px solid orange;   
+        }
+        .c3{
+            background-color:rgba(138, 130, 184, 0.637);
+            padding: 10px;
+            text-align: center;
+            margin: 10px ;
+        }
+        .c4{
+            background-color:rgba(35, 26, 90, 0.658);
+            padding: 10px;
+            text-align: right;
+            margin: 10px ;
+        }
+        .cuadro2{
+            margin-top: 10px;
+            border: 10px solid rgb(62, 21, 207);   
+        }
+ 

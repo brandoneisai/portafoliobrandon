@@ -1,0 +1,56 @@
+h1{
+    color: burlywood;
+}
+
+table{
+    align-self: center;
+}
+
+td,tr{
+    border:1px solid;
+}
+body{
+    text-align: center;
+    background-image: url(./../multimedia/hora.jpg);
+    
+}
+
+.web{
+    color: white;
+    background-color: red;
+    font-style: unset;
+}
+
+.pro1{
+    color: white;
+    background-color: blue;
+
+}
+
+.cir{
+    color: white;
+    background-color: green;
+
+}
+
+.n2{
+    color: white;
+    background-color: purple;
+
+}
+.eng{
+    color: white;
+    background-color: orange;
+
+}
+
+.n3{
+    color: black;
+    background-color: yellow;
+
+}
+#especial{
+    color: white;
+    background-color: brown;
+    font-style: italic;
+}

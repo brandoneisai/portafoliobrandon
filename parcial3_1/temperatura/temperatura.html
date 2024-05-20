@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperatura</title>
+    <script src="temperatura.js"></script>
+</head>
+<body>
+    <h1>Conversor de temperatura</h1>
+<form id="myform" onsubmit="return temperaturas();">
+    <p>Grados centigrados  <input id="grados" name="grados" type="text"></p>
+    <p>convrtida
+    <select name="opcion" id="opcion">
+        <option value="2">Kelvin</option>
+        <option value="1">Farenheit</option>
+    </select>
+</p>
+<p>
+    <input type="submit">
+</p>
+</form>
+</body>
+</html>

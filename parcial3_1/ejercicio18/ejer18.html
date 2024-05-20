@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="ejer18.js"></script>
+</head>
+
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+<body>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+    <form id="myform" onsubmit="return grafica();">
+
+        <p>Inicio <input id="inicio" name="inicio" type="text" /></p>
+        <p>Fin <input id="fin" name="fin" type="text" /></p>
+      
+
+        <select name="identidad" id="identidad">
+            <option value="1">seno</option>
+            <option value="2">coseno</option>
+            <option value="3">tangente</option>
+            <option value="4">cotangente</option>
+        </select>
+        
+        <p><input type="submit" /></p>
+    </form>
+
+        <div id="myPlot" style="width:100%;max-width:700px"></div>
+       
+</body>
+
+
+</html>

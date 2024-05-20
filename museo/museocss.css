@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(29, 179, 141);
+}
+
+nav{
+color: orangered;
+text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: rgb(23, 52, 56);
+    
+}
+
+.british-museum{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    box-shadow:0 0 0 10px orangered;
+    border:solid 10px orange;
+    float: left;
+}
+
+.tate-britain{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    box-shadow:0 0 0 10px orangered;
+    border:solid 10px orange;
+    float: right;   
+}
+
+.trafalgar-square{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    box-shadow:0 0 0 10px orangered;
+    border:solid 10px orange;
+    float: left;   
+}
+
+.natural-history{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    box-shadow:0 0 0 10px orangered;
+    border:solid 10px orange;
+    float:right;  
+}
+
+.museo1{
+    padding: 10px;
+    background-color: white;
+    border: 10px solid orange;
+    overflow: hidden;
+
+}
+.museo2{
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 10px solid orange;
+    overflow: hidden;
+
+}
+.museo3{
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 10px solid orange;
+    overflow: hidden;
+
+}
+
+.museo4{
+    padding: 10px;
+    margin-top: 20px;
+    background-color: white;
+    border: 10px solid orange;
+    overflow: hidden;
+}
